@@ -5,8 +5,8 @@
 # OmniAuth US-MA
 
 [![Gem Version](https://badge.fury.io/rb/omniauth-us-ma.svg)](http://badge.fury.io/rb/omniauth-us-ma)
-[![CI Build Status](https://secure.travis-ci.org/mapc/omniauth-us-ma.svg?branch=master)](http://travis-ci.org/mapc/omniauth-us-ma)
-[![Code Climate](https://codeclimate.com/github/mapc/omniauth-us-ma.png)](https://codeclimate.com/github/mapc/omniauth-us-ma)
+[![Build Status](https://travis-ci.org/MAPC/omniauth-us-ma.svg)](https://travis-ci.org/MAPC/omniauth-us-ma)
+[![Code Climate](https://codeclimate.com/github/MAPC/omniauth-us-ma/badges/gpa.svg)](https://codeclimate.com/github/MAPC/omniauth-us-ma)
 
 This gem contains the Commonwealth of Massachusetts strategy for OmniAuth. Use this gem in your Ruby web application to log in users who are employed with the Commonwealth of Massachusetts.
 
