@@ -10,6 +10,9 @@ require 'webmock/rspec'
 require 'omniauth'
 require 'omniauth-us-ma'
 
+# Permit CodeClimate report to leave
+WebMock.disable_net_connect!(allow: "codeclimate.com")
+
 RSpec.configure do |config|
   config.include WebMock::API
   config.include Rack::Test::Methods
