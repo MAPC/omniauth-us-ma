@@ -18,7 +18,11 @@ This gem is maintained by the [Metropolitan Area Planning Council (MAPC)](https:
 
 You should have already installed OmniAuth into your app; if not, read the [OmniAuth README](https://github.com/intridea/omniauth) to get started.
 
-> TODO: How to get a client credentials (Client ID and Client Secret)
+Unlike your [typical][t] [OAuth][f] [provider][in], MassIT does not provide client credentials through an automated service. Instead, if you would like to implement Commonwealth of Massachusetts OAuth2 authentication in your application, you will have to [contact MassIT directly](www.mass.gov/massit).
+
+[t]:  https://github.com/arunagw/omniauth-twitter
+[f]:  https://github.com/mkdynamic/omniauth-facebook
+[in]: https://github.com/skorks/omniauth-linkedin
 
 ## Using This Strategy
 
