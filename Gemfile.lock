@@ -9,6 +9,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.3.8)
+    codeclimate-test-reporter (0.4.7)
+      simplecov (>= 0.7.1, < 1.0.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
     diff-lcs (1.2.5)
@@ -54,9 +56,9 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.0)
+  codeclimate-test-reporter
   omniauth-us-ma!
   rack-test
   rake
   rspec (~> 3.2)
-  simplecov
   webmock

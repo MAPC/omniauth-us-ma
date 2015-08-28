@@ -1,3 +1,4 @@
+language: ruby
 rvm:
   - 1.9.3
   - 2.0.0
@@ -5,3 +6,8 @@ rvm:
   - 2.2
   - jruby
   - rbx-2
+bundler_args: --without production
+cache: bundler
+addons:
+  code_climate:
+    repo_token: c56f765730150543219f06f787dafc2637123956a78e9d1c6edaf9d591e72f4e

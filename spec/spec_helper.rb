@@ -1,9 +1,9 @@
+if ENV['CODECLIMATE_REPO_TOKEN']
+  require "codeclimate-test-reporter"
+  CodeClimate::TestReporter.start
+end
 $:.unshift File.expand_path('..', __FILE__)
 $:.unshift File.expand_path('../../lib', __FILE__)
-require 'simplecov'
-SimpleCov.start do
-  minimum_coverage(94.59)
-end
 require 'rspec'
 require 'rack/test'
 require 'webmock/rspec'
