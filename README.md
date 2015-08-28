@@ -1,4 +1,4 @@
-# This README is not implemented at all, we just want to have a statement of intention / README-driven development. We will remove this method when the gem is ready to use.
+# This README is not implemented at all, we just want to have a statement of intention / README-driven development. We will remove this message when the gem is ready to use.
 
 ---
 
@@ -126,7 +126,7 @@ Ryan Bates has put together an excellent RailsCast on OmniAuth:
 
 ## Supported Rubies
 
-OmniAuth US MA is tested under 1.9.3, 2.0.0, 2.1.5, 2.2.0, JRuby, and Rubinius.
+OmniAuth US MA is tested under 1.9.3, 2.0.0, 2.1.5, 2.2.x, JRuby, and Rubinius.
 
 ## Contributing
 
